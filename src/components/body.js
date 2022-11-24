@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 //Components
-import Display from "./display/display";
+import {Display} from "./content/content";
+//import {Emoji} from "./content/content";
 
 const Body = () => {
     return(

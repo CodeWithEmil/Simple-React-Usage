@@ -2,8 +2,14 @@
 .body--container {
   height: 100vh;
   background: linear-gradient(135deg, #9d45f5, #6d1dbe);
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji--container {
+  font-size: 5rem;
 }
 
 .display--container {
