@@ -6,6 +6,70 @@
   place-items: center;
 }
 
+.display--container {
+  height: 20vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.display--container .display--button--container, .display--container .display--counter--container {
+  height: 80%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+.display--container .display--button--container {
+  width: 20%;
+}
+.display--container .display--button--container .display--button {
+  height: 70%;
+  width: 85%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #ededed;
+  border-radius: 25px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s;
+  display: grid;
+  place-items: center;
+}
+.display--container .display--button--container .display--button:hover {
+  height: 75%;
+  width: 90%;
+}
+.display--container .display--button--container .display--button:active {
+  height: 70%;
+  width: 85%;
+  filter: brightness(80%);
+}
+.display--container .display--button--container .display--decrease {
+  background: #ffa0a0;
+  border: 4px solid #fb5d5d;
+}
+.display--container .display--button--container .display--increase {
+  background: #bdffc1;
+  border: 4px solid #4fb954;
+}
+.display--container .display--counter--container {
+  width: 50%;
+}
+.display--container .display--counter--container .display--counter {
+  height: 70%;
+  width: 85%;
+  background: #ededed;
+  border-radius: 25px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+  user-select: none;
+  transition: 0.4s;
+  display: grid;
+  place-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
